@@ -1,0 +1,22 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.active-menu-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF;
+}
+
+.default-menu-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
